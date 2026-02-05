@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iris Flower Prediction API</title>
+</head>
+<body>
+<div class="container">
+<h1>🌸 Iris Flower Classification API</h1>
+<p class="subtitle">MachineLearning APIfor predicting irisflowerspecies</p>
+<div class="api-section">
+<h2>🌸 Dataset Information</h2>
+<p><strong>Features:</strong></p>
+<ul>
+{% for feature in feature_names %}
+<li>{{ feature }}</li>
+{% endfor %}
+</ul>
+<p><strong>Target Classes:</strong></p>
+<ul>
+{% for target in target_names %}
+app.run(debug=True, host='0.0.0.0', port=5000)
+<li>{{ target }}</li>
+{% endfor %}
+</ul>
+</div>
+<div class="api-section">
+<h2>🌸 API Endpoints</h2>
+<div class="endpoint">
